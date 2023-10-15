@@ -1,0 +1,102 @@
+/* .contact_details p {
+    margin-top: 0;
+} */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .contact_details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Optional: Add padding, margin, or other styles as needed */
+  }
+  
+  /* Optional: Apply styles to the Typography components */
+  .contact_details .MuiTypography-root {
+    margin-bottom: 8px; /* You can adjust the margin as needed */
+  }
+
+  .contact_details .MuiTypography-root {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .contact_details .MuiSvgIcon-root {
+    margin-right: 8px; /* Adjust the margin as needed to provide space between icon and text */
+  }
+  
+  
+  .form-container {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  textarea,
+  input {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    background: #d19e0f;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .button-container button:hover {
+    background: white;
+    color: black;
+  } */
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    background: #d19e0f;
+    border: none;
+    border-radius: 50%; 
+    width: 100px; 
+    height: 100px; 
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .button-container button:hover {
+    background: rgb(237, 211, 118);
+    color: black;
+  }
+  
+  
+  
