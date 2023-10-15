@@ -2,6 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://RajeevLochan1.github.io/my-portfolio",
   "dependencies": {
     "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.11.1",
@@ -12,6 +13,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "browser-router": "^0.2.0",
+    "gh-pages": "^6.0.0",
     "html2pdf.js": "^0.10.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -23,6 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
