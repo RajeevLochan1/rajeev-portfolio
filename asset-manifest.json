@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.c3ae18f6.css",
+    "main.js": "/my-portfolio/static/js/main.d1311e43.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/spiderman.png": "/my-portfolio/static/media/spiderman.ac49f2a45b19835ce560.png",
+    "static/media/logo.jpg": "/my-portfolio/static/media/logo.b8a05bc1ce5e38e7dfea.jpg",
+    "index.html": "/my-portfolio/index.html",
+    "main.c3ae18f6.css.map": "/my-portfolio/static/css/main.c3ae18f6.css.map",
+    "main.d1311e43.js.map": "/my-portfolio/static/js/main.d1311e43.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3ae18f6.css",
+    "static/js/main.d1311e43.js"
+  ]
+}
